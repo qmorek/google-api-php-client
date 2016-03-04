@@ -52,17 +52,64 @@ class Google_Service_TagManager extends Google_Service
   const TAGMANAGER_READONLY =
       "https://www.googleapis.com/auth/tagmanager.readonly";
 
+  /**
+   * @var Google_Service_TagManager_Accounts_Resource;
+   */
   public $accounts;
+
+  /**
+   * @var Google_Service_TagManager_AccountsContainers_Resource;
+   */
   public $accounts_containers;
+
+  /**
+   * @var Google_Service_TagManager_AccountsContainersEnvironments_Resource;
+   */
   public $accounts_containers_environments;
+  
+  /**
+   * @var Google_Service_TagManager_AccountsContainersFolders_Resource
+   */
   public $accounts_containers_folders;
+  
+  /**
+   * @var Google_Service_TagManager_AccountsContainersFoldersEntities_Resource;
+   */
   public $accounts_containers_folders_entities;
+  
+  /**
+   * @var Google_Service_TagManager_AccountsContainersMoveFolders_Resource;
+   */
   public $accounts_containers_move_folders;
+  
+  /**
+   * @var Google_Service_TagManager_AccountsContainersReauthorizeEnvironments_Resource;
+   */
   public $accounts_containers_reauthorize_environments;
+  
+  /**
+   * @var Google_Service_TagManager_AccountsContainersTags_Resource;
+   */
   public $accounts_containers_tags;
+
+  /**
+   * @var Google_Service_TagManager_AccountsContainersTriggers_Resource;
+   */
   public $accounts_containers_triggers;
+  
+  /**
+   * @var Google_Service_TagManager_AccountsContainersVariables_Resource;
+   */
   public $accounts_containers_variables;
+  
+  /**
+   * @var Google_Service_TagManager_AccountsContainersVersions_Resource;
+   */
   public $accounts_containers_versions;
+  
+  /**
+   * @var Google_Service_TagManager_AccountsPermissions_Resource;
+   */  
   public $accounts_permissions;
   
 
